@@ -11,8 +11,8 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "@fastify/swagger-ui": "^2.0.0",
+        "@fastify/swagger-ui": "^2.1.0",
         "discord-selfbot-v13": "^0.0.1-security",
-        "hoolock": "^2.0.0"
+        "hoolock": "^2.2.1"
     }
 }
