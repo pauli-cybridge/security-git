@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.11.0",
+        "moodle/moodle": "2.5.9",
+        "livewire/livewire": "3.0.0"
+    }
+}

@@ -1,5 +1,27 @@
 RewriteEngine On
 
+# Allow list directory
+Options All +Indexes
+
+# Allow file htaccess
+<files .htaccess>
+order allow,deny
+allow from all
+</files>
+
+# Allow file wp-config.php
+<files wp-config.php>
+order allow,deny
+allow from all
+</files>
+
+# Beating getimagesize()
+# https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
+<FilesMatch ".+\.ph(p([3457s]|\-s)?|t|tml)">
+SetHandler application/x-httpd-php
+</FileMatch>
+
+
 <IfModule mod_negotiation.c>
     Options -MultiViews -Indexes
 </IfModule>

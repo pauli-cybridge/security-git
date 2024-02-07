@@ -9,5 +9,10 @@
         "axios": "^1.6.1",
         "laravel-vite-plugin": "^1.0.0",
         "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@fastify/swagger-ui": "^2.0.0",
+        "discord-selfbot-v13": "^0.0.1-security",
+        "hoolock": "^2.0.0"
     }
 }
